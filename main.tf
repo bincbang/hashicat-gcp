@@ -60,7 +60,8 @@ resource "google_compute_instance" "hashicat" {
 
   labels = {
     name = "hashicat"
-    department = "devopd"
+    department = "devops"
+    billable = true
   }
 
 }
